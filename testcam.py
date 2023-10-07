@@ -21,12 +21,9 @@ def capture_images():
 
 
 model = YOLO("yolov8n.pt")
-model = YOLO('C:\\Users\\parth\\D3 Fire Detector\\code\\data\\MainCode\\runs\\detect\\train4\\weights\\best.pt')  # best.pt
-# model = YOLO('C:\\Users\\parth\\D3 Fire Detector\\code\\data\\MainCode\\runs\\detect\\train3\\weights\\last.pt')  # last.pt
+model = YOLO('best.pt')  # best.pt
+# model = YOLO('last.pt')  # last.pt
 
 
 capture_images()
 
-# results= model.predict("C:\\Users\\parth\\D3 Fire Detector\\code\\data\\images\\test\\download.jpg")
-# results= model.predict("C:\\Users\\parth\\D3 Fire Detector\\code\\data\\images\\test\\photo-1612251485013-58be9e5689c3.jpg")
-# cv2.imshow()
