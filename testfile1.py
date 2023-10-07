@@ -87,5 +87,5 @@ with st.expander("Credits"):
 with st.sidebar:
          st.write(f"🔴 Live Fire & Smoke Detection")
 
-model = YOLO('C:\\Users\\parth\\D3 Fire Detector\\code\\data\\MainCode\\runs\\detect\\train4\\weights\\best.pt')
+model = YOLO('best.pt')
 capture_images() 
