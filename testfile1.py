@@ -15,6 +15,7 @@ def capture_images():
             outs = model.predict(frame,agnostic_nms=True)[0]
             
             #printing detection (bool type)
+            #check if it prints anything
             with st.sidebar:
                 with st.empty():
                     if len(outs)!=0 :
